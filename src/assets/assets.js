@@ -34,6 +34,8 @@ import Don from "./song Image/Don.webp";
 import NamyaDaChaa from "./song Image/NamyaDaChaa.webp";
 import Surrey from "./song Image/Surrey.webp";
 import Runway from "./song Image/Runway.webp";
+import Knife_Brows from "./song Image/Knife Brows.webp";
+import Russian_Bandana from "./song Image/Russian Bandana.webp";
 import img8 from "./album image/img8.jpg";
 import img9 from "./album image/img9.jpg";
 import img10 from "./album image/img10.jpg";
@@ -55,6 +57,8 @@ import Don_song from "./song/Don.mp3";
 import NamyaDaChaa_song from "./song/NamyaDaChaa.mp3";
 import Surrey_song from "./song/Surrey.mp3";
 import Runway_song from "./song/Runway.mp3";
+import Knife_Brows_song from "./song/Knife Brows.mp3";
+import Russian_Bandana_song from "./song/Russian Bandana.mp3";
 
 export const assets = {
   bell_icon,
@@ -223,6 +227,22 @@ export const songsData = [
     image: Runway,
     file: Runway_song,
     desc: "R Nait",
+    duration: "3:48",
+  },
+  {
+    id: 12,
+    name: "Knife Brows",
+    image: Knife_Brows,
+    file: Knife_Brows_song,
+    desc: "Dhanda Nyoliwala",
+    duration: "3:48",
+  },
+  {
+    id: 13,
+    name: "Russian Bandana",
+    image: Russian_Bandana,
+    file: Russian_Bandana_song,
+    desc: "Dhanda Nyoliwala",
     duration: "3:48",
   },
 ];
